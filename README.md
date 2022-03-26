@@ -8,8 +8,8 @@ WAF akan mendeteksi dan memblokir input yang mengandung string berikut:
 - script
 - OR
 - <
-- > 
-- SLEEP "
+- \> 
+- SLEEP
 - '
 - "
 - alert
