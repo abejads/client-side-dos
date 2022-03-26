@@ -1,6 +1,6 @@
 <?php
 
-$blacklisted = ['script', 'OR', '<', '>', 'SLEEP', "'", '"'];
+$blacklisted = ['script', 'OR', '<', '>', 'SLEEP', "'", '"', "alert"];
 
 # WAF deteksi wordlist di atas
 foreach($blacklisted as $list) {
