@@ -17,9 +17,9 @@ WAF akan mendeteksi dan memblokir input yang mengandung string berikut:
 ### Rate limit
 Rate limiting mendeteksi adanya percobaan request sebanyak 30 kali dalam kurun waktu 120 detik atau 2 menit.
 
-### Usage
+### Set Up
 ```
 git clone https://github.com/abejads/client-side-dos
 cd client-side-dos
-php -S 0.0.0.0:8000
+php -S 0.0.0.0:80
 ```
